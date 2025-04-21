@@ -1,0 +1,29 @@
+ git --version
+  155  ls
+  156  mkdir devops
+  157  ls
+  158  cd devops
+  159  ls
+  160  git init
+  161  ls
+  162  ls -a
+  163  git status
+  164  touch testing-file
+  165  git status
+  166   ls
+  167  git add testing-file
+  168  git status
+  169  git rm --cached testing-file
+  170  git status
+  171  git add testing-file
+  172  git status
+  173  ls
+  174  git commit -m "added testin-file "
+  175  git status
+  176  rm testing-file
+  177  ls
+  178  git restore testing-file
+  179  ls
+  180  git status
+  181  history
+
